@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.god.southcar">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO">
+    </uses-permission>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE">
+    </uses-permission>
+
+    <application
+        android:name="com.example.picturewall.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/chinazhongche"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.example.welcome.welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.login_register_update_findinfomation.register.Register">
+
+        </activity>
+
+        <activity
+            android:name="com.example.login_register_update_findinfomation.findinformation.findpassword">
+
+        </activity>
+
+        <activity
+            android:name=".MainActivity_slider"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+
+        </activity>
+
+
+        <activity android:name="com.example.login_register_update_findinfomation.login.Login"></activity>
+
+        <activity android:name="com.example.MyFragment1.MyFragment1_broadcast"></activity>
+
+        <activity android:name="com.example.identity_pic.identity_pic_main.identity_pic_main_java"></activity>
+
+        <activity android:name="com.example.identity_pic.identity_selsect_sum.identity_deal.identity_deal_main_activity"></activity>
+        <activity android:name="com.example.identity_pic.identity_selsect_sum.identity_select.xianlu_identity_activity"></activity>
+
+        <activity android:name="com.example.identity_pic.identity_num.one_door.identity_1_activity"></activity>
+        <activity android:name="com.example.identity_pic.identity_num.two_door.identity_2_activity"></activity>
+        <activity android:name="com.example.identity_pic.identity_num.three_door.identity_3_activity"></activity>
+        <activity android:name="com.example.identity_pic.identity_num.four_door.identity_4_activity"></activity>
+
+        <activity android:name="com.example.identity_pic.identity_num.identity_num_result_main_returnfrompc.identity_num_result_main_returnfrompc_activity"></activity>
+
+        <activity android:name="com.example.identity_pic.identity_num.one_door.identity_num_listview_main.identity_num_listview_main_activity1"></activity>
+        <activity android:name="com.example.identity_pic.identity_num.one_door.identity_num_listview_main.identity_num_listview_main_activity2"></activity>
+        <activity android:name="com.example.identity_pic.identity_num.one_door.identity_num_listview_main.identity_num_listview_main_activity3"></activity>
+        <activity android:name="com.example.identity_pic.identity_num.one_door.identity_num_listview_main.identity_num_listview_main_activity4"></activity>
+
+        <activity android:name="com.example.identity_pic.identity_num.one_door.identity_num_result_main.identity_num_result_main_activity"></activity>
+
+
+        <activity android:name="com.example.identity_pic.identity_num.two_door.identity_num_listview_main.identity_2_listview_main_activity1"></activity>
+        <activity android:name="com.example.identity_pic.identity_num.two_door.identity_num_listview_main.identity_2_listview_main_activity2"></activity>
+        <activity android:name="com.example.identity_pic.identity_num.two_door.identity_num_listview_main.identity_2_listview_main_activity3"></activity>
+        <activity android:name="com.example.identity_pic.identity_num.two_door.identity_num_listview_main.identity_2_listview_main_activity4"></activity>
+
+        <activity android:name="com.example.identity_pic.identity_num.two_door.identity_num_result_main.identity_2_result_main_activity"></activity>
+
+        <activity android:name="com.example.identity_pic.identity_num.three_door.identity_num_listview_main.identity_3_listview_main_activity1"></activity>
+        <activity android:name="com.example.identity_pic.identity_num.three_door.identity_num_listview_main.identity_3_listview_main_activity2"></activity>
+        <activity android:name="com.example.identity_pic.identity_num.three_door.identity_num_listview_main.identity_3_listview_main_activity3"></activity>
+
+        <activity android:name="com.example.identity_pic.identity_num.three_door.identity_num_result_main.identity_3_result_main_activity"></activity>
+
+
+        <activity android:name="com.example.identity_pic.identity_pic_selectall_by_gwgxxd.identity_pic_selectall_by_gwgxxd_select.xianlu_identity_pic_selectall_by_gwgxxd_activity">
+
+        </activity>
+
+        <activity android:name="com.example.identity_pic.identity_pic_selectall_by_gwgxxd.identity_deal.xianlu_identity_pic_selectall_by_gwgxxd_deal_main_activity">
+
+        </activity>
+
+        <activity android:name="com.example.identity_pic.identity_pic_selectall_by_gwgxxd.identity_pic_selectall_by_gwgxxd_uploadpic_activity">
+
+        </activity>
+
+        <activity android:name="com.example.identity_pic.identity_pic_selectall_by_gwgxxd.identity_num_result_main_returnfrompc_by_gwgxxd_activity">
+
+        </activity>
+
+        <activity android:name="com.example.takepictrue_save_FileUploadImage_sql_from_pc.main.takepictrue_save_FileUploadImage_selectall_by_gwgxxd_activity">
+
+        </activity>
+
+        <activity android:name="com.example.takepictrue_save_FileUploadImage_sql_from_pc.main_deal.takepictrue_save_FileUploadImage_selectall_by_gwgxxd_deal_main_activity">
+
+        </activity>
+
+
+        <activity android:name="com.example.takepictrue_save_FileUploadImage_sql_from_pc.main_sql_result.takepictrue_save_FileUploadImage_selectall_by_gwgxxd_uploadpic_activity">
+
+        </activity>
+
+        <activity android:name="com.dyk.cameratest.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+
+
+
+
+
+        <activity android:name="com.example.test_activity">
+
+        </activity>
+        <activity android:name="com.arlen.photo.ui.MainActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name="com.example.xianlu_main.xianlu_main_activity">
+
+        </activity>
+
+        <activity android:name="com.example.main.crm_main_activity" >
+
+        </activity>
+
+        <activity
+            android:name="com.arlen.photo.photopickup.view.PhotoPickupActivity"
+            android:label="照片选择"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.arlen.photo.photopickup.view.ImageLookActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="大图查看"
+            android:screenOrientation="portrait"/>
+
+
+
+        <activity android:name="com.example.updated_pic_info.MainActivity_uploadpic">
+
+        </activity>
+        <activity android:name="com.example.imagedemo.ImagePagerActivity" >
+        </activity>
+
+
+
+        <activity android:name="com.example.identity_pic.identity_num.identity_num_result_main_returnfrompc.identity_num_result_main_returnfrompc_activity"></activity>
+    </application>
+
+</manifest>
