@@ -20,9 +20,9 @@ import java.util.ArrayList;
  */
 public class identity_pic_main_java extends AppCompatActivity {
 
-    private  ArrayList<String> leibie = new ArrayList<String>(){{add(null); add(null);add(null);add(null);add(null);}};
+    private  ArrayList<String> leibie = new ArrayList<String>(){{add("第1类缝隙"); add("第2类缝隙");add("第3类缝隙");add("第4类缝隙");add("测试");}};
 
-    private ArrayList<Integer> leibie_pic = new ArrayList<Integer>(){{add(R.mipmap.no1_gap); add(R.mipmap.no2_gap);add(R.mipmap.no3_gap);add(R.mipmap.no4_gap);add(R.mipmap.no5_gap);}};
+    private ArrayList<Integer> leibie_pic = new ArrayList<Integer>(){{add(R.mipmap.tittle_gap_1); add(R.mipmap.tittle_gap_2);add(R.mipmap.tittle_gap_3);add(R.mipmap.tittle_gap_4);add(R.mipmap.tittle_gap_test);}};
 
 
     public static String identity_pic_main_java_fengxileibie = "";

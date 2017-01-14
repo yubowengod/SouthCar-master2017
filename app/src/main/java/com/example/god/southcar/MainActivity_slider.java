@@ -79,7 +79,7 @@ public class MainActivity_slider extends AppCompatActivity
     public static String [] [] [] picinfo = null;
 
     public static int xianlu_num;
-
+    public static int ww = 0;
     private long mExitTime;
 
     private void ini_spinner(){
@@ -151,7 +151,7 @@ public class MainActivity_slider extends AppCompatActivity
                     spinner_gongxu_oracle.getList_result().clear();
                 }
 
-                int ww = 0;
+                 ww++;
             }
         });
     }
@@ -166,7 +166,8 @@ public class MainActivity_slider extends AppCompatActivity
 
         executorService = Executors.newFixedThreadPool(5);
         ini_spinner();
-
+        int www = 0;
+        www  = ww;
         fManager = getFragmentManager();
         bindViews();
 

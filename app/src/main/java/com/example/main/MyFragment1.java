@@ -54,24 +54,40 @@ public class MyFragment1 extends Fragment {
 
 
         MyFragment1_ItemEntity entity1 = new MyFragment1_ItemEntity(
-                "http://192.168.155.1:8011/local_file/a.jpg", "1", "今天天气不错今天天气不错今天天气不错今天天气不错今天天气不错今天天气不错今天天气不错今天天气不错...","2016-9-2");
+                "http://192.168.155.1:8011/local_file/a.jpg", "1", "今天天气不错...1","2016-9-2");
         itemEntities.add(entity1);
 
         MyFragment1_ItemEntity entity2 = new MyFragment1_ItemEntity(
-                "http://192.168.155.1:8011/local_file/b.jpg", "2", "今天天气不错今天天气不错今天天气不错今天天气不错今 ","2016-4-25");
+                "http://192.168.155.1:8011/local_file/b.jpg", "2", "今天天气不错...2 ","2016-4-25");
         itemEntities.add(entity2);
 
         MyFragment1_ItemEntity entity3 = new MyFragment1_ItemEntity(
-                "http://192.168.155.1:8011/local_file/c.png", "3", "今天天气不错今天天气不错今 ///天天气不错今天天气不错今天天气不错...","2016-10-25");
+                "http://192.168.155.1:8011/local_file/c.jpg", "3", "今天天气不错...3","2016-10-25");
         itemEntities.add(entity3);
 
         MyFragment1_ItemEntity entity4 = new MyFragment1_ItemEntity(
-                "http://192.168.155.1:8011/local_file/d.png", "4", "今天天气不错今天天气不错今天safsafs天气不错今天天气不错今天天气不错今天天气不错今天天气不错今天天气不错...","2016-11-25");
+                "http://192.168.155.1:8011/local_file/d.jpg", "4", "今天天气不错...4","2016-11-25");
         itemEntities.add(entity4);
 
         MyFragment1_ItemEntity entity5 = new MyFragment1_ItemEntity(
-                "http://192.168.155.1:8011/local_file/e.png", "5", "今天天气不错今天天气不错今天天气不错今wwww天天气不错今天天气不错今天天气不错今天天气不错今天天气不错...","2016-12-25");
+                "http://192.168.155.1:8011/local_file/e.jpg", "5", "今天天气不错...5","2016-12-25");
         itemEntities.add(entity5);
+
+        MyFragment1_ItemEntity entity6 = new MyFragment1_ItemEntity(
+                "http://192.168.155.1:8011/local_file/f.jpg", "6", "今天天气不错...6","2017-1-5");
+        itemEntities.add(entity6);
+
+        MyFragment1_ItemEntity entity7 = new MyFragment1_ItemEntity(
+                "http://192.168.155.1:8011/local_file/g.jpg", "7", "今天天气不错...7","2017-10-25");
+        itemEntities.add(entity7);
+
+        MyFragment1_ItemEntity entity8 = new MyFragment1_ItemEntity(
+                "http://192.168.155.1:8011/local_file/h.jpg", "8", "今天天气不错...8","2017-11-2");
+        itemEntities.add(entity8);
+
+        MyFragment1_ItemEntity entity9 = new MyFragment1_ItemEntity(
+                "http://192.168.155.1:8011/local_file/i.jpg", "9", "今天天气不错...7","2017-12-21");
+        itemEntities.add(entity9);
 
 
 

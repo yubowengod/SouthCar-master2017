@@ -1,11 +1,14 @@
 package com.example.MyFragment1;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.example.god.southcar.MainActivity_slider;
 import com.example.god.southcar.R;
 
 /**
@@ -18,10 +21,26 @@ public class MyFragment1_broadcast extends AppCompatActivity {
     private TextView broadcast_tittle;
     private ImageView broadcast_image;
 
+    private TextView broadcast_back;
+    private void setSelected(){
+        broadcast_back.setSelected(false);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.myfragment1_broadcast);
+
+        broadcast_back = (TextView) findViewById(R.id.broadcast_back);
+
+        broadcast_back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                setSelected();
+                broadcast_back.setSelected(false);
+                broadcast_back.setSelected(true);
+                finish();
+            }
+        });
 
         Bundle bundle = this.getIntent().getExtras();
         String tittle = bundle.getString("tittle");
