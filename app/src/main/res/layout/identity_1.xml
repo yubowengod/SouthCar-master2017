@@ -52,12 +52,16 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:id="@+id/btn_identity_1_bottom"/>
+            android:id="@+id/btn_identity_1_bottom"
+            android:text="确定"
+            android:textSize="20sp"/>
         <Button
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:id="@+id/btn_identity_1_bottom_left"/>
+            android:id="@+id/btn_identity_1_bottom_left"
+            android:text="返回"
+            android:textSize="20sp"/>
 
     </LinearLayout>
 
