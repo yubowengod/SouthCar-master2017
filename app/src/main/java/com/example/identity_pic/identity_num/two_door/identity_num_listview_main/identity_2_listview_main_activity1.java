@@ -43,6 +43,7 @@ public class identity_2_listview_main_activity1 extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.identity_num_listview_main);
         textView=(TextView)findViewById(R.id.identity_num_listview_main_listview_item_name);
+
         if (flag==1){
             textView.setText(identity_2_activity.no2_weizhi[0]);
         }
