@@ -7,7 +7,7 @@
 
     <ImageView
         android:id="@+id/identity_num_listview_main_listview_item_avatar"
-        android:background="@mipmap/ic_launcher"
+        android:background="@mipmap/pop_btn_bg"
         android:layout_width="match_parent"
         android:layout_height="400dp"
         android:layout_gravity="center_horizontal"
@@ -19,7 +19,7 @@
         android:id="@+id/identity_num_listview_main_listview_item_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="爷，今天心情好！"
+        android:text="今天心情好！"
         android:textSize="20sp"
         android:layout_gravity="center_horizontal"
         android:layout_alignParentTop="true"
